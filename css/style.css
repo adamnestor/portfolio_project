@@ -53,10 +53,39 @@ li > a {
     text-decoration: none;
 }
 
+button {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #222E50;
+    color: #222E50;
+    border-radius: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E9D985;
+}
 
 .intro {
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    width: 90%;
+}
+
+.intro > div {
+    margin-right: 100px;
+}
+
+.intro >div:last-child {
+    margin-right: 0;;
 }
 
 h1 {
@@ -67,6 +96,12 @@ h1 {
 .intro-subtitle {
     text-align: center;
     font-size: 28px;
+}
+
+#selfie {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .about {
