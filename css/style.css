@@ -1,46 +1,136 @@
 body {
-    background-color: white;
     font-family: Verdana;
-    color: navy;
+    color: black;
 }
 
-.header_nav {
+header {
+    width: 100%;
+    height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     font-size: 24px;
+    top: 0;
 }
+
+#logo {
+    width: 200px;
+    height: 200px;
+    padding: 0.5rem;
+}
+
+nav {
+    width: 50%;
+    max-width: 600px;
+    height: 50px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #222E50;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    color: #007991;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 .intro {
-    text-align: center;
-    font-size: 32px;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
 
-.section_header {
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.intro-subtitle {
+    text-align: center;
+    font-size: 28px;
+}
+
+.about {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #222E50;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.information {
     text-align: center;
     font-size: 24px;
+    width: 80%;
+    margin: auto;
 }
 
-.projects {
-    padding: 50px, 0px, 50px, 0px;
+.tool-lists {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+    width: 90%;
+    padding-top: 50px;
 }
 
-.link {
-    text-decoration: none;
-    color: navy;
+.column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
 }
 
-input[type="button"] {
-    color: navy;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 24px;
-    border: 2px solid navy;
-    border-radius: 50px;
-    padding: 12px 24px;
+ul {
+    list-style: none;
+    padding: 0;
 }
+
+li {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.tool-1 {
+    background-color: #007991;
+    color: white;
+    border-radius: 10%;
+}
+
+.tool-2 {
+    background-color: #439A86;
+    color: black;
+    border-radius: 10%;
+}
+
+.tool-3 {
+    background-color: #E9D985;
+    color: black;
+    border-radius: 10%;
+}
+
+.alt-color1 {
+    color: #439A86
+}
+

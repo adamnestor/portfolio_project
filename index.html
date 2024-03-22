@@ -1,43 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset = "utf-8">
+        <meta name="'viewport" content="width=device-width, initial-scale=1.0">
         <title>Adam Nestor</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <nav class="header_nav"> <!--Navigation at top of the screen-->
-            <div>
-                <img src="./images/top_corner_logo.png" width="150" height="150">
-            </div>
-            <div style="flex-grow: 1;" >
-                <a class="link" href="">About</a>
-            </div>
-            <div style="flex-grow: 1;">
-                <a class="link" href="">My Work</a>
-            </div>
-            <div style="flex-grow: 20;">
-                <input type="button" value="Say Hello"/>
-            </div>
-        </nav>
-        <div class="intro"> <!--First Impression Text / Introduction-->
-            <p>I'm Adam Nestor</p>
-            <p>A Full Stack Web Developer</p>
-        </div>
-        <div> <!--Projects-->
-            <div class="section_header">
-                <p>Latest Projects</p>
-            </div>
-            <div class="projects">
+        <header>
+            <img id="logo" src="./images/top_corner_logo.png">
+            <nav> <!--Navigation at top of the screen-->
+                <ul>
+                    <li><a href="" accesskey="s">My Work</a></li>
+                    <li><a href="" accesskey="s">Resume</a></li>
+                    <li><a href="" accesskey="s">Say Hello</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="intro"> <!--First Impression Text / Introduction-->
                 <div>
-                    Project 1
+                    <h1 class="intro-title">I'm <span class="alt-color1">Adam Nestor</span></h1>
+                    <p class="intro-subtitle">A Full Stack Developer</p>
                 </div>
-                <div>
-                    Project 2
+            </section>
+            <section class="about"> <!--A little more about myself-->
+                <h2>Hi, I'm Adam. Nice to meet you.</h2>
+                <p class="information">This is where I can add maybe 3-4 sentences about who I am, what I am doing, and why you should hire me</menu></p>
+            </section>
+            <section class="tools"> <!--Projects-->
+                <div class="tool-lists">
+                    <div class="column tool-1">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul>
+                            <li>Tool 1</li>
+                            <li>Tool 2</li>
+                            <li>Tool 3</li>
+                            <li>Tool 4</li>
+                            <li>Tool 5</li>
+                        </ul>
+                    </div>
+                    <div class="column tool-2">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>Tool 1</li>
+                            <li>Tool 2</li>
+                            <li>Tool 3</li>
+                            <li>Tool 4</li>
+                            <li>Tool 5</li>
+                        </ul>
+                    </div>
+                    <div class="column tool-3">
+                        <h3>Something Else</h3>
+                        <ul>
+                            <li>Tool 1</li>
+                            <li>Tool 2</li>
+                            <li>Tool 3</li>
+                            <li>Tool 4</li>
+                            <li>Tool 5</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    Project 3
-                </div>
-            </div>
-        </div>
+            </section>
+        </main>
     </body>
 </html>
