@@ -67,7 +67,8 @@ button {
 }
 
 button:hover {
-    background-color: #E9D985;
+    background-color:#007991;
+    color: white;
 }
 
 .intro {
@@ -166,7 +167,7 @@ li {
 }
 
 .alt-color1 {
-    color: #439A86
+    color:#007991;
 }
 
 footer {
